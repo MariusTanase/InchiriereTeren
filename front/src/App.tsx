@@ -1,15 +1,11 @@
-import Homepage from './pages/homepage';
+import Homepage from './pages/Homepage';
+import './index.css'
 
 function App() {
 
-  const userStatus = true;
-
-
   return (
     <>
-      {
-        userStatus ? <Homepage /> : null
-      }
+        <Homepage />
     </>
   )
 }
