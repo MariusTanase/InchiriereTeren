@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import WelcomeCard from './elements/WelcomeCard'
 import HappyPerson from '../assets/HappyPerson.svg'
 import TerrainTypes from '../assets/terrainTypes.png'
@@ -25,20 +26,16 @@ const CardsStats = () => {
             description: "Happy Customers",
         }
     ]
-  return (
-    <div>
+    return (
 
-        {
-            cardsArray.map((card) => (
-                <WelcomeCard
-                    key={card.id}
-                    items={card}
-                />
-            ))
-        }
-        
-    </div>
-  )
+            <section className= 'w-[80%] mx-auto p-4 my-16'>
+                <div className='flex flex-col lg:flex-row w-[100%] justify-center lg:justify-around gap-4'>
+                    <WelcomeCard items={cardsArray[0]} />
+                    <WelcomeCard items={cardsArray[1]} />
+                    <WelcomeCard items={cardsArray[2]} />
+                </div>
+            </section>
+    )
 }
 
 export default CardsStats
