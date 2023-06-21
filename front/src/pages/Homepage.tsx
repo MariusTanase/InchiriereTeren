@@ -6,6 +6,7 @@ import WhyUs from '../components/WhyUs'
 import CallToAction from '../components/CallToAction'
 import Testimonials from '../components/Testimonials'
 import ContactUs from '../components/ContactUs'
+import Footer from '../components/Footer'
 
 const Homepage = () => {
   return (
@@ -18,6 +19,7 @@ const Homepage = () => {
         <CallToAction />
         <Testimonials />
         <ContactUs />
+        <Footer />
     </section>
   )
 }
