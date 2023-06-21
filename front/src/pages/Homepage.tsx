@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Welcome from '../components/Welcome'
 import CardStats from "../components/CardsStats"
 import WhyUs from '../components/WhyUs'
+import CallToAction from '../components/CallToAction'
 
 const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ const Homepage = () => {
         <Welcome />
         <CardStats />
         <WhyUs />
+        <CallToAction />
     </section>
   )
 }
