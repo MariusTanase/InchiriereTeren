@@ -2,24 +2,25 @@ import HeroImage from '../assets/hero-illustration.png'
 
 const Hero = () => {
     return (
-        <section className="relative w-full text-center min-h-[40vh] md:min-h-[65vh] md:text-start overflow-hidden bg-blue-950 text-white">
-            <div className='container flex flex-col w-[90%] mx-auto p-2'>
-                <div className='mt-10'>
-                    <h1 className='text-2xl font-bold'>OurField - Book Sports Field Online</h1>
-                    <p>Find and book sports fields effortlessly</p>
-                </div>
-                <form className='flex flex-col items-center gap-[.5rem] mt-12 w-[50%] md:w-[30%] md:mx-0 mx-auto'>
-                    <input className='text-black outline-none bg-white rounded-md p-[.125rem] text-sm w-full md:w-[10rem] md:p-2 text-center' type="text" placeholder='Search for a location' />
-                    <div className='flex justify-between w-full md:flex-col md:items-center gap-4'>
-                        <input className="text-black outline-none bg-white rounded-md p-[.125rem] md:w-[10rem] md:p-2  text-sm w-fit flex-1" type="date" />
-                        <input className="text-black outline-none bg-white rounded-md p-[.125rem] md:w-[10rem] md:p-2 text-sm w-fit flex-1" type="time" />
+    
+        <section className=" w-full text-center min-h-[30vh] xl:min-h-[60vh] md:text-start overflow-hidden bg-blue-950 text-white flex">
+            <div className='relative container flex flex-col w-[80%] mx-auto'>
+                <div className='flex flex-col justify-evenly items-center xl:items-start mx-auto xl:mx-0 pt-10 xl:flex-1'>
+                    <div className='flex justify-center items-center flex-col'>
+                        <h1 className='md:text-[4rem] text-[3.5rem] lg:text-[5rem] font-bold'>SportulMeu</h1>
+                        <p className='text-xl md:text-[1.5rem] lg:text-[1.7rem]'>Find and book sports fields effortlessly</p>
                     </div>
-                    <input className="text-black outline-none bg-white rounded-md p-[.125rem] text-sm w-full md:w-[10rem] md:p-2 text-center" placeholder='Type of terrain' />
-                </form>
+                    <form className='flex flex-col gap-[.5rem] mt-12 w-[50%] xl:w-[30%]'>
+                        <input className='text-black outline-none bg-white rounded-md p-[0.7rem] text-lg w-full md:p-2 text-center xl:max-w-[300px]' type="text" placeholder='Search for a location' />
+                    </form>
 
+                </div>
+
+                {/* apare dupa 1280 */}
+                <div className='hidden relative xl:flex-1 xl:block'>
+                    <img className='hidden object-cover xl:block absolute bottom-0 right-[-25%] w-full max-w-[800px]' src={HeroImage} alt="Hero" />
+                </div>
             </div>
-            <img className='hidden md:block absolute top-0 right-0' src={HeroImage} alt="Hero" />
-
         </section>
     )
 }
