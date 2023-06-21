@@ -4,6 +4,8 @@ import Welcome from '../components/Welcome'
 import CardStats from "../components/CardsStats"
 import WhyUs from '../components/WhyUs'
 import CallToAction from '../components/CallToAction'
+import Testimonials from '../components/Testimonials'
+import ContactUs from '../components/ContactUs'
 
 const Homepage = () => {
   return (
@@ -14,6 +16,8 @@ const Homepage = () => {
         <CardStats />
         <WhyUs />
         <CallToAction />
+        <Testimonials />
+        <ContactUs />
     </section>
   )
 }
