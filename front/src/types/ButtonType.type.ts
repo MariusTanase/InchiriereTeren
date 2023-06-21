@@ -4,9 +4,3 @@ export type ButtonType = {
     linkTo?: string | null,
 }
 
-export interface ICard {
-    id: number,
-    title: string,
-    description: string,
-    image: string,
-}

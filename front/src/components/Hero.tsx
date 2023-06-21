@@ -2,8 +2,7 @@ import HeroImage from '../assets/hero-illustration.png'
 
 const Hero = () => {
     return (
-    
-        <section className=" w-full text-center min-h-[30vh] xl:min-h-[60vh] md:text-start overflow-hidden bg-blue-950 text-white flex">
+        <section className="w-full text-center min-h-[30vh] xl:min-h-[60vh] md:text-start overflow-hidden bg-blue-950 text-white flex">
             <div className='relative container flex flex-col w-[80%] mx-auto'>
                 <div className='flex flex-col justify-evenly items-center xl:items-start mx-auto xl:mx-0 pt-10 xl:flex-1'>
                     <div className='flex justify-center items-center flex-col'>
