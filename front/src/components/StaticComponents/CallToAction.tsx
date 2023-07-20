@@ -2,7 +2,7 @@ import Button from "../ReusableComps/Button"
 
 const CallToAction = () => {
     return (
-        <section className='w-[80%] mx-auto p-4 my-24'>
+        <section className='container mx-auto my-24'>
             <div className='flex flex-col'>
                 <h2 className='font-bold text-3xl text-slate-700'>Ready to take a sweat?</h2>
 
