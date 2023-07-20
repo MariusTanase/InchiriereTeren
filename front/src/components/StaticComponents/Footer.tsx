@@ -1,4 +1,4 @@
-import FooterLink from './elements/FooterLink'
+import FooterLink from "../ReusableComps/FooterLink"
 
 const Footer = () => {
 

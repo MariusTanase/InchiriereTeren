@@ -1,5 +1,6 @@
-import Button from "./elements/Button"
+
 import { Link } from "react-router-dom"
+import Button from "../ReusableComps/Button"
 
 const Header = () => {
     return (

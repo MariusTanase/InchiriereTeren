@@ -1,12 +1,4 @@
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import Welcome from '../components/Welcome'
-import CardStats from "../components/CardsStats"
-import WhyUs from '../components/WhyUs'
-import CallToAction from '../components/CallToAction'
-import Testimonials from '../components/Testimonials'
-import ContactUs from '../components/ContactUs'
-import Footer from '../components/Footer'
+import {Header, Hero, Welcome, CardsStats, WhyUs, CallToAction, Testimonials, ContactUs, Footer} from '../components/StaticComponents/'
 
 const Homepage = () => {
   return (
@@ -14,7 +6,7 @@ const Homepage = () => {
         <Header />
         <Hero />
         <Welcome />
-        <CardStats />
+        <CardsStats />
         <WhyUs />
         <CallToAction />
         <Testimonials />

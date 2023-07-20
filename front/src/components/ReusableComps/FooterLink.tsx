@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
+import { FooterLinkProps} from '../../types/FooterType.type'
 
-const FooterLink = ({title, arrayLinks}) => {
+const FooterLink = ({title, arrayLinks}: FooterLinkProps) => {
+
 
     return (
         <div className='flex flex-col lg:flex-col'>

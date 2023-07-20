@@ -1,4 +1,4 @@
-import WhyUsPerson from '../assets/WhyUsPerson.png';
+import WhyUsPerson from '../../assets/WhyUsPerson.png';
 
 const Testimonials = () => {
     return (

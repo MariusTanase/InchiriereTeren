@@ -1,6 +1,5 @@
 import { useRef } from "react"
 import { ButtonType } from "../../types/ButtonType.type";
-import {Link} from 'react-router-dom';
 
 const Button = ({style="button", name="button", linkTo}: ButtonType) => {
     const buttonRef = useRef(null);
